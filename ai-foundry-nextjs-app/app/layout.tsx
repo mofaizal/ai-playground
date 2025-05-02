@@ -74,8 +74,8 @@ export default function RootLayout({
                 {expandedChapter === 'chapter2' && (
                   <ul style={{ listStyle: 'none', paddingLeft: '20px', marginTop: '10px' }}>
                     <li style={{ marginBottom: '10px' }}>
-                      <Link href="/conversation" style={{ color: '#ecf0f1', textDecoration: 'none' }}>
-                        Conversation Chat
+                      <Link href="/multimodel" style={{ color: '#ecf0f1', textDecoration: 'none' }}>
+                      Multi-modal: Text, Image, Audio
                       </Link>
                     </li>
                   </ul>
